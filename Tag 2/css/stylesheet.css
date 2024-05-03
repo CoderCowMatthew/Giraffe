@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #ffe5ca;
+    font-family: arial, sans-serif;
+    text-align: center;
+    color: #634924;
+    height: 100%;
+    margin: 0;
+}
+
+#mainpicture {
+    height: 100%;
+    background-image: url(https://wallpapers.com/images/hd/africa-hd-q5nde12xruuxdo6y.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10vh;
+}
+
+p, li, ol {
+    color: #634924;
+    font-size: 1.2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav a{
+text-decoration: none;
+}
+
+.topicbox {
+    background-color: #c79761;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10vh;
+    border-radius: 1vh;
+    padding-bottom: 8vh;
+    border: 2px solid #634924;
+    box-shadow: 2px 2px #c7ab8f;
+}
+
+/* Ocapacity change to around 50% */
+
+nav>ul li {
+    color: #ffe5ca;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #8f6b37;
+    min-width: 8vw;
+    padding-top: 0.2vw;
+    border-radius: 4px;
+}
+
+nav {
+    background-image: url(https://th.bing.com/th/id/R.f7834cbc17687853c011f9beb878f2e4?rik=eP9Bieg9tqU94A&pid=ImgRaw&r=0);
+    width: 100%;
+    min-height: 5vh;
+    position: fixed;
+    z-index: 10;
+}
+
+#navlist {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1vw;
+    padding-right: 5vw;
+}
+
+h1 {
+    color: #ffe5ca;
+    padding: 20%;
+    position: absolute;
+    font-size: 10em;
+}
+
+h2 {
+    color: #ffe5ca;
+    font-size: 2.3em;
+}
+
+
+table {
+    margin-left: 34%;
+    border: 1px solid black;
+}
+
+footer {
+    background-color: #c7976191;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+footer > p {
+    font-size: 12px;
+}
+
+a:hover {
+    color: #b65d0f;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/*-- NEW PAGE: KARTE --*/
+
+#giraffenkarte {
+    width: 45vw;
+    height: 100vh;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+}
+
+/*--NEW PAGE: ÜBER --*/
+
+
